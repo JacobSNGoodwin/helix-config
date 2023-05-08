@@ -1,0 +1,12 @@
+theme = "catppuccin_frappe"
+
+[editor]
+line-number = "relative"
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "version-control"]
