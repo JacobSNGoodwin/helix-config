@@ -3,10 +3,26 @@ theme = "catppuccin_frappe"
 [editor]
 line-number = "relative"
 bufferline = "multiple"
+rulers = [100]
+text-width = 100
 
 [editor.cursor-shape]
 insert = "bar"
 select = "underline"
 
+
+[editor.soft-wrap]
+enable = true
+wrap-at-text-width = true
+
 [editor.statusline]
 left = ["mode", "spinner", "file-name", "version-control"]
+
+[editor.file-picker]
+hidden = false
+
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
